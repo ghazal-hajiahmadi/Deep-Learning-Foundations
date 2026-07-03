@@ -27,10 +27,8 @@ A regression task to predict life expectancy based on the World Health Organizat
 
 ## Repository Structure
 ```text
-├── Autoencoder_Scratch/
-│   ├── autoencoder.py          # Scratch implementation of Autoencoder & Classifier
-│   └── mnist_eval.ipynb        # Training and evaluation on MNIST
-├── Life_Expectancy_MLP/
-│   ├── Life Expectancy Data.csv
-│   └── mlp_regression.ipynb    # Preprocessing and MLP training pipeline
+├── Data/                       # MNIST dataset files
+├── Life Expectancy Data.csv    # WHO dataset
+├── autoencoder.ipynb           # Autoencoder & Classifier implementation from scratch
+├── LifeExpectancy.ipynb        # MLP regression pipeline & convergence analysis
 └── README.md
